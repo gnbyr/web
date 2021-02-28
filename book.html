@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Books.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        header {border: 2px blue solid;}
+        main {border: 2px red solid;}
+        footer {border: 2px yellow solid; background-color: rgb(112, 112, 112);}
+    </style>
+</head>
+<body>
+    <header>
+        <section class="header-header">
+            <ul>
+                <li><a href="https://www.bookstore.mn/" class="tsahim">Цахим ном</a></li>
+                <li><img src="img/mglflag.png" alt="" width="25">
+                    <ul class="dropdown">
+                        <li><img src="img/mglflag.png" alt="" width="25"></li>
+                        <li><img src="img/mglflag.png" alt=""width="25"></li>
+                    </ul>
+                </li>
+                <li><a href="">ҮНЭ </a></li>
+                <li><a href="">БҮРТГҮҮЛЭХ </a></li>
+                <li><a href="">НЭВТРЭХ </a></li>
+            </ul>
+        </section>
+        <section class="header-logo">
+            <img class="logo" src="img/logobar.png" alt="logobar">
+            <section class="searchbar">
+                <form class="search_bar_style" action="books">
+                    <input type="text" name="search" placeholder="Ном хайх..." >
+                </form>
+            </section>
+            <section>
+                <a href="cart1.html" class="pay">
+                    <img src="img/cart.png" alt="cart" width="40" height="40">
+                </a>
+            </section>
+        </section>
+        <section class="header-dropdown">
+            <ul>
+                <li>
+                    <h4>НИЙТИЙН НОМ</h4>
+                    <ul class="dropdown-submenu">
+                        <li><a href="book.html">Түүх, ёс заншил</a></li>
+                        <li><a href="book.html">Нийгэм, улс төр, хууль</a></li>
+                        <li><a href="book.html">Шинжлэх ухаан, танин мэдэхүй</a></li>
+                        <li><a href="book.html">Монголын уран зохиол</a></li>
+                        <li><a href="book.html">Гадаадын уран зохиол</a></li>
+                        <li><a href="book.html">Бизнес, маркетинг, эдийн засаг</a></li>      
+                        <li><a href="book.html">Компьютер, техник технологи</a></li>   
+                        <li><a href="book.html">Эрүүл мэнд, спорт, хоол хүнс</a></li>
+                        <li><a href="book.html">Хэл шинжлэл, толь бичиг</a></li>
+                        <li><a href="book.html">Мэргэжлийн ном, гарын авлага</a></li>
+                        <li><a href="book.html">Намтар дурсамж, дурдатгал</a></li>
+                        <li><a href="book.html">Шашин, гүн ухаан , философи</a></li>
+                        <li><a href="book.html">Яруу найраг, соёл урлаг</a></li>
+                        <li><a href="book.html">Гэр бүл, хувь хүний хөгжил</a></li>
+                        <li><a href="book.html">Хөдөө аж ахуй, аялал жуулчлал</a></li>
+                        <li><a href="book.html">Сэтгүүл</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>ХҮҮХДИЙН НОМ</h4>
+                    <ul class="dropdown-submenu">
+                        <li><h4>ЦЭЦЭРЛЭГИЙН НАС</h4></li>
+                        <li><a href="book.html">Үлгэр /цэцэрлэг/</a></li>
+                        <li><a href="book.html">Танин мэдэхүй /цэцэрлэг/</a></li>
+                        <li><a href="book.html">Сэтгэхүй хөгжүүлэх ном</a></li>
+                        <li><a href="book.html">Амралт чөлөөт цаг /цэцэрлэг/</a></li>
+                        <li><h4>СУРГУУЛИЙН НАС</h4></li>
+                        <li><a href="book.html">Үлгэр /сургууль/</a>
+                        <li><a href="book.html">Комик</a>
+                        <li><a href="book.html">Монголын уран зохиол</a>
+                        <li><a href="book.html">Сурах бичиг, сургалтын материал /сургууль/</a>
+                        <li><a href="book.html">Танин мэдэхүй /сургууль/</a>
+                        <li><a href="book.html">Амралт чөлөөт цаг /сургууль/</a>
+                    </ul>
+                </li>
+                <li>
+                    <h4>ГАДААД НОМ</h4>
+                    <ul class="dropdown-submenu">
+                        <li><h4>ENGLISH</h4></li>
+                        <li><a href="book.html">English book</a></li>
+                        <li><a href="book.html">Kids book</a></li>
+                        <li><h4>РУССКИЙ</h4></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>БЭЛЭГ ДУРСГАЛ</h4>                    
+                    <ul class="dropdown-submenu">
+                        <li><a href="book.html">Бэлгийн тор</a></li>
+                        <li><a href="book.html">Бэлгийн хайрцаг</a></li>
+                        <li><a href="book.html">Номын хавчуурга, гоёл чимэглэл</a></li>
+                        <li><a href="book.html">Бэлэг дурсгалын сет</a></li>
+                        <li><a href="book.html">Бэлэг дурсгал, сувинер</a></li>
+                        <li><a href="book.html">Бэлгийн карт</a></li>
+                        <li><a href="book.html">Сар шинийн бэлгийн багц / Нийтийн /</a></li>
+                        <li><a href="book.html">Сар шинийн бэлгийн багц / Хүүхдийн /</a></li>
+                        <li><a href="book.html"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h4>БИЧИГ ХЭРЭГ</h4>
+                    <ul class="dropdown-submenu">
+                        <li><h4>ОФФИСИЙН ХЭРЭГСЭЛ</h4></li>
+                        <li><a href="book.html">Бичиг баримт цэгцлэх хэрэгсэл</a></li>
+                        <li><a href="book.html">Бичгийн ширээний хэрэгсэл</a></li>
+                        <li><a href="book.html">Хавтас нуруу</a></li>
+                        <li><a href="book.html">Бичгийн тавиур</a></li>
+                        <li><a href="book.html">Самбар, дагалдах хэрэгсэл</a></li>
+                        <li><a href="book.html">Тоног төхөөрөмж</a></li>
+                        <li><a href="book.html">Дэвтрийн төрөл</a></li>
+                        <li><a href="book.html">Бусад</a></li>
+                        <li><h4>ХИЧЭЭЛИЙН ХЭРЭГСЭЛ</h4></li>
+                        <li><a href="book.html">Дэвтрийн төрөл</a></li>
+                        <li><a href="book.html">Будах хэрэгсэл</a></li>
+                        <li><a href="book.html">Цүнхний төрөл</a></li>
+                        <li><a href="book.html">Хэмжих хэрэгсэл</a></li>
+                        <li><a href="book.html">Багшийн хэрэгсэл</a></li>
+                        <li><a href="book.html">Арилгах хэрэгсэл</a></li>
+                        <li><a href="book.html">Урлах хэрэгсэл</a></li>
+                        <li><a href="book.html">Сурагч багц</a></li>
+                        <li><h4>ӨРГӨН ХЭРЭГЛЭЭНИЙ ЗҮЙЛС</h4></li>
+                        <li><a href="book.html">Бичих хэрэгсэл</a></li>
+                        <li><a href="book.html">Цаасны төрөл</a></li>
+                        <li><a href="book.html">Багаж хэрэгсэл</a></li>
+                        <li><a href="book.html">Bujo хэрэгсэл</a></li>
+                        <li><a href="book.html">Наах хэрэгсэл</a></li>
+                        <li><a href="book.html">Бусад</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <table class="main">
+            <tr>
+                <td>
+                     <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+                <td>
+                    <div><img src="img/books/1.jpg"  alt="" width="100" height="100"></div>
+                    <div>
+                        <h4>Монгол империализм</h4>
+                        <a href="">Томас Т.Алсен</a>
+                        <strong>16,000 ₮</strong>
+                    </div>
+                    <div>
+                        <a href="">САГСАНД ХИЙХ</a>
+                    </div> 
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <section class="footer-container">
+            <article class="footer-about">
+                <img src="img/logo_white.png" alt="">
+                    <p>
+                        Азхур ХХК нь 2015 оны 9-р сард Олон улсын жишиг стандартад нийцсэн хаягжуулалт, номын нөөцтэй, Монголдоо хамгийн том буюу 1000м.кв талбайд 10 мянга гаруй нэр төрлийн номын сонголттой
+                    </p>
+            </article>
+            <article class="footer-column footer-links">
+                <ul>
+                    <li><a href="">ТАНИЛЦУУЛГА</a></li>
+                    <li><a href="">МЭДЭЭ МЭДЭЭЛЭЛ</a></li>
+                    <li><a href="">САЛБАРУУД</a></li>
+                    <li><a href="">ЗОХИОЛЧИД</a></li>
+                </ul>
+            </article>
+            <article class="footer-column footer-links">
+                <ul>
+                    <li><a href="">ҮЙЛЧИЛГЭЭНИЙ НӨХЦӨЛ</a></li>
+                    <li><a href="">ТӨЛБӨР ТӨЛӨЛТ</a></li>
+                    <li><a href="">БУЦААЛТ</a></li>
+                    <li><a href="">ХҮРГЭЛТ</a></li>
+                </ul>
+            </article>
+            <article class="footer-contacts">
+                <p>
+                    Улаанбаатар хот, Сүхбаатар дүүрэг Тээвэрчдийн гудамж-27, Нарны зам
+                </p>
+                <img src="" alt="">
+                <p>+976 7000-4343</p>
+                <img src="" alt="">
+                <p>info@azkhur.mn</p>
+                <img src="img/f_logo.png" alt="facebook" width="50" height="50">
+                <img src="img/t_logo.jpg" alt="twitter" width="50" height="50">
+                <img src="img/y_logo.jpg" alt="youtuve" width="50" height="50">
+            </article>
+        </section>
+    </footer>
+</body>
+</html>
